@@ -4,6 +4,6 @@ int main()
 {
     // you can call any function you like here 
     // to test the output.
-    exercise_2(10.0, 5.0);
+    exercise_2(2.0,10.0);
     return 0;
 }
