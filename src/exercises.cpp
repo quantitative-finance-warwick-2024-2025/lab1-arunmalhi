@@ -68,11 +68,13 @@ Hint: use the '?' operator. You can define the function in one line.
 */
 void exercise_4(int x)
 {
-    if (x == 0) {
+    /*if (x == 0) {
         std::cout << "Dividing by zero is not supported" << std::endl;
     } else {
         std::cout << "10 divided by " << x << " is " << (10 / x) << std::endl;
-    }
+    }*/
+    (x!=0)?std::cout<<"10 divided by " << x << " is " << (10 / x)<<"\n": std::cout<<"Dividing by zero is not supported\n";
+
 }
 
 /*
